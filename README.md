@@ -1,1 +1,1 @@
-my c++ cmake template
+My c++ cmake template
