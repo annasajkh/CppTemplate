@@ -1,6 +1,5 @@
 ﻿cmake_minimum_required(VERSION 3.22)
 
-
 set(CMAKE_TOOLCHAIN_FILE "${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake" CACHE STRING "")
 
 set(CMAKE_C_COMPILER "gcc")
