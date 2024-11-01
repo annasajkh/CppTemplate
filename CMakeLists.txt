@@ -2,9 +2,6 @@
 
 set(CMAKE_TOOLCHAIN_FILE "${VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake" CACHE STRING "")
 
-set(CMAKE_C_COMPILER "gcc")
-set(CMAKE_CXX_COMPILER "g++")
-
 set(PROJECT_NAME CppTemplate)
 project(${PROJECT_NAME} VERSION 1.0)
 
