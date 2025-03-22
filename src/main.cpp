@@ -1,8 +1,6 @@
-﻿#include <fmt/core.h>
-#include <iostream>
+﻿#include <iostream>
 
 int main()
 {
-    fmt::println("Hello World!");
-    std::cin.get();
+    std::cout << "Hello World!\n";
 }

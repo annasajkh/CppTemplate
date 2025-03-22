@@ -1,9 +1,19 @@
 {
-    "version": 4,
-    "vendor": {
-        "conan": {}
+  "version": 2,
+  "configurePresets": [
+    {
+      "name": "windows",
+      "inherits": "vcpkg",
+      "environment": {
+        "VCPKG_ROOT": "C:/Users/Annas/vcpkg"
+      }
     },
-    "include": [
-        "build\\build\\generators\\CMakePresets.json"
-    ]
+    {
+      "name": "linux",
+      "inherits": "vcpkg",
+      "environment": {
+        "VCPKG_ROOT": "~/vcpkg"
+      }
+    }
+  ]
 }

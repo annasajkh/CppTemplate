@@ -1,4 +1,4 @@
-﻿cmake_minimum_required(VERSION 3.15)
+﻿cmake_minimum_required (VERSION 3.8)
 
 
 set(PROJECT_NAME CppTemplate)
@@ -31,8 +31,10 @@ foreach(dir ${INCLUDES})
         message(STATUS ${dir})
 endforeach()
 
-find_package(fmt CONFIG REQUIRED)
-
 add_executable(${PROJECT_NAME} ${SRCS})
 
-target_link_libraries(${PROJECT_NAME} PRIVATE fmt::fmt)
+if (CMAKE_VERSION VERSION_GREATER 3.12)
+  set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 20)
+endif()
+
+# TODO: Add tests and install targets if needed.
