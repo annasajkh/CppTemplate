@@ -14,10 +14,13 @@ and then<br>
 `cmake --build build`
 
 # Add New Package
-first you do this<br>
+first you add the package<br>
 `vcpkg add port fmt`
 
-and then you add it in CMakeList.txt
+and then you can install the package locally<br>
+`vcpkg install`
+
+and then you can add it in CMakeList.txt
 ```cmake
 find_package(fmt CONFIG REQUIRED)
 target_link_libraries(${PROJECT_NAME} PRIVATE fmt::fmt)
