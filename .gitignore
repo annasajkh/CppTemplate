@@ -2,3 +2,5 @@
 /build
 /.vs
 /vcpkg_installed
+.idea
+/cmake-build-debug
