@@ -47,6 +47,6 @@ int main()
 ```
 
 Build and run<br>
-`cmake --preset=windows`<br>
-`cmake --build build`<br>
+`mkdir build && cd build`<br>
+`cmake --build .`<br>
 `.\build\ProjectName.exe`
