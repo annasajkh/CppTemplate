@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.11)
+cmake_minimum_required(VERSION 3.20)
 
 set(PROJECT_NAME CppTemplateSolution)
 project(${PROJECT_NAME} VERSION 1.0)
