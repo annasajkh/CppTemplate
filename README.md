@@ -7,9 +7,9 @@ only do the step one `1 - Set up vcpkg` and the copy the path to vcpkg to `CMake
 
 # Build
 for windows<br>
-`cmake --preset=windows`<br>
+`cmake --preset=windows -DCMAKE_BUILD_TYPE=Debug`<br>
 for linux<br>
-`cmake --preset=linux`<br>
+`cmake --preset=linux -DCMAKE_BUILD_TYPE=Debug`<br>
 and then<br>
 `cmake --build build`
 
