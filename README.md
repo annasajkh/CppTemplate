@@ -48,5 +48,6 @@ int main()
 
 Build and run<br>
 `mkdir build && cd build`<br>
+`cmake ..`<br>
 `cmake --build .`<br>
 `.\build\ProjectName.exe`
