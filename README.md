@@ -5,7 +5,7 @@ modify `CMakeUserPresets.json` and change the path of `VCPKG_ROOT` to your insta
 refer to https://learn.microsoft.com/en-us/vcpkg/get_started/get-started to setup vcpkg<br>
 only do the step one `1 - Set up vcpkg` and the copy the path to vcpkg to `CMakeUserPresets.json` in the `VCPKG_ROOT` field
 
-# Compile
+# Build
 for windows<br>
 `cmake --preset=windows`<br>
 for linux<br>
@@ -45,8 +45,3 @@ int main()
     return 0;
 }
 ```
-
-Build and run<br>
-`mkdir build && cd build`<br>
-`cmake ..`<br>
-`cmake --build .`<br>
