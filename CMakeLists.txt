@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 
-set(PROJECT_NAME TestEVPPWorkspace)
+set(PROJECT_NAME CppTemplate)
 project(${PROJECT_NAME} VERSION 1.0)
 
 set(CMAKE_CXX_STANDARD 20)
