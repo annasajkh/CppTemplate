@@ -1,1 +1,1 @@
-﻿add_executable(cpp_template "src/main.cpp")
+﻿add_executable(${PROJECT_NAME} "src/main.cpp")
