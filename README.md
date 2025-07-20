@@ -4,6 +4,6 @@
 ```shell
 mkdir build
 cd build
-cmake -G Ninja -D CMAKE_BUILD_TYPE=Release ..
-cmake --build .
+cmake -DCMAKE_BUILD_TYPE=Release ..
+cmake --build . --parallel 6 --config Release
 ```
