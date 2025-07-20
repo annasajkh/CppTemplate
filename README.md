@@ -1,7 +1,7 @@
 # My c++ cmake template
 
 ### Compiling
-##### Windows
+#### Windows
 Generating build files
 ```powershell
 mkdir build
@@ -17,7 +17,7 @@ Building for release
 cmake --build . --config Release
 ```
 
-##### Linux
+#### Linux
 Generating build files
 ```bash
 mkdir build
